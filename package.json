@@ -1,0 +1,25 @@
+{
+  "name": "vue-todo",
+  "version": "1.0.0",
+  "description": "webpack+vue实现的todo项目，学习自慕课网",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build":"webpack --config webpack.config.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SHPengJarsn/vue-todo.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/SHPengJarsn/vue-todo/issues"
+  },
+  "homepage": "https://github.com/SHPengJarsn/vue-todo#readme",
+  "dependencies": {
+    "vue": "^2.5.13",
+    "vue-loader": "^14.1.1",
+    "webpack": "^3.10.0"
+  }
+}
