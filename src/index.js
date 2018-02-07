@@ -2,6 +2,11 @@
 import Vue from "vue"
 import App from "./app.vue"
 
+//018引入图片和样式
+import "./assets/styles/test.css"
+import "./assets/images/bg.jpeg"
+
+
 //006
 const root = document.createElement("div")
 document.body.appendChild(root)

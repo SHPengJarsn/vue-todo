@@ -1,11 +1,14 @@
 <template>
-	<div id="test">{{text}}</div>
+	<div id="test">
+		{{text}}
+		<p>aaaaa</p>
+	</div>
 </template>
 <script>
 	export default{
 		data(){
 			return {
-				text:"abc"
+				text:"aaa"
 			}
 		}
 	}
