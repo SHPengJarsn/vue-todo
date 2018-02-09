@@ -4,6 +4,7 @@ import App from "./app.vue"
 
 //018引入图片和样式
 import "./assets/styles/test.css"
+import "./assets/styles/test-stylus.styl"
 import "./assets/images/bg.jpeg"
 
 
