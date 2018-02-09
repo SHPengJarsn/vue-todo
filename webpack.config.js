@@ -44,11 +44,20 @@ module.exports = {
 						}
 					}
 				]
-			}
+			},
 			//016安装相应的loader。npm install style-loader url-loader file-loader
 			//之所以要安装file-loader是因为url-loader是依赖于file-loader的
 			//017添加src/assets/images和src/assets/styles
 			//018测试引入的图片和css样式，到app.vue引入
+			//019配置css预编译软件stylus
+			{
+				test:/\.styl$/,
+				use:[
+					'style-loader',
+					'css-loader',
+					'stylus-loader'//把styl文件解析成css文件,安装stylus-loader时要先安装stylus
+				]
+			}
 		]
 	}
 }
